@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .myform{
+    color: rgb(235, 29, 2);
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZtgwR7GnR9vuV5xcLw-z4z-or39X0JsIECA&usqp=CAU');
+    background-position: center center;
+    background-repeat: no-repeat ;
+    background-size: 100%;
+    border: 2px solid red;
+    border-radius: 30px;
+    height: 500px;
+    width: 400px;
+
+} 
+    </style>
+</head>
+
+<body><hr>
+    <center><h2>This is addmision form:-</h2></center>
+    <hr>
+    <center>
+    <form action="backend.python" class="myform"> 
+        <div>
+        <label for="firstname">First Name:</label>
+        <input type="text" name="myfname" id="firstname">
+        </div>
+        <br>
+        <div>
+            <label for="lastname">Last Name:</label>
+            <input type="text" name="mylname" id="lastname">
+        </div>
+        <br>
+        <div>
+            <label for="dob">Date Of Birth:</label>
+         <input type="date" name="mydob" id="dob">
+        </div>
+        <br>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="myemail" id="email">
+        </div>
+        <br>
+        <div>
+            <label for="num">Your Number</label>
+            <input type="number" name="mynum" id="num">
+        </div>
+        <br>
+        <div>
+        <label for="Gender">Gender:-</label>
+        <div>
+            Male<input type="radio" name="myGender" id="Gender"> Female<input type="radio" name="myGender" id="Gender"> Other<input type="radio" name="myGender" id="Gender">
+        </div>
+    </div>
+        <br>
+        <div>
+            <label for="document">Do you submited the document:</label>
+            <input type="checkbox" name="mydocument" id="document">
+        </div>
+        <br>
+        <div>
+            <label for="course">My Course:</label>
+            <select name="mycourse" id="course">
+                <option value="webdev">Web Development</option>
+                <option value="python">Python</option>
+                <option value="java">Java</option>
+                <option value="c" selected>C language</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="why">Why do you select this course?</label><br>
+            <textarea name="mywhy" id="why" cols="40" rows="5"></textarea>
+        </div>
+        <br>
+        <div>
+            <input type="reset" value="reset now">
+        </div>
+        <br>
+        <div>
+            <input type="button" value="submit now">
+        </div>
+        <hr>
+    </form>
+</center>
+    <hr>
+</body>
+</html>
